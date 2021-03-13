@@ -1,25 +1,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Open+Sans&display=swap" rel="stylesheet">
-<style>
-  body{ 
-    background-color: slategray;
-  }
-  h1 {
-    font-family: 'Gloria Hallelujah', cursive; 
-  }
-  p {
-    font-family: 'Open Sans', sans-serif;
-  }
-  #404-msg {
-    background: white;
-    margin: auto;
-    width: 40%;
-    padding: 20px;
-  }
+  <style>
+    body {
+      background-color: tomato;
+    }
+    h1 {
+      font-family: 'Gloria Hallelujah', cursive;
+    }
+    p {
+      font-family: 'Open Sans', sans-serif;
+    }
+    .container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px;
+    }
   </style>
-  
-<div id=404-msg>
-  <h1>Wait, you shouldn't be here.</h1>
-  <p>Did you perhaps get lost? Let's take you back!</p>
-  <a href="/">Back to the main page</a>
-</div>
+  <div class="container">
+    <div id="content">
+      <h1>404</h1>
+      <h1>Wait, you shouldn't be here.</h1>
+      <p>Did you perhaps get lost? Let's take you back!</p>
+      <a href="/">Back to the main page</a>
+    </div>
+  </div>
