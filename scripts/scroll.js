@@ -4,7 +4,7 @@ $(window).on("load",function(){
 $(document).ready(function() {
 	$('#fancyscroll').fullpage({
 		//options here
-		autoScrolling:true,
+		autoScrolling:false,
 		scrollHorizontally: true,
 	});
 
