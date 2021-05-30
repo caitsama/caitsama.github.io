@@ -192,4 +192,23 @@ img {
      }
      
  }
+/*For Mobile/Tablet view 320px & 768px*/
+@media screen and (max-width: 320px) {
+    .splash {
+        padding:0;
+    }
+    .heading {
+    /*uhhhh make it 1:1 on the phone screen just bc*/
+    }
+    #menu {
+        display:none;
+    }
+    .container {
+        width: 100%
+    }
+    /*.......for experience section do something about the flex items to make it mobile friendly*/
+}
+@media screen and (max-width: 768px) {
+
+}
 
