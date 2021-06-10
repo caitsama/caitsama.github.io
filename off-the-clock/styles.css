@@ -1,0 +1,151 @@
+body {
+  padding: 0;
+  margin: 0;
+  width:100%;
+  background-color: #E88E3E;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2%;
+}
+h1, h2 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  transition: .5s;
+}
+a:hover {
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+ul li:before {
+  content: '\2605';
+  margin: 0 1em;
+}
+table {
+  margin: auto;
+}
+tbody td {
+  padding: 3px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #897542;
+  color: #fff;
+}
+figure img {
+  border: 2px mediumpurple solid;
+  max-width: 70px;
+}
+figcaption {
+  font-weight: 800;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 3vw;
+}
+hr {
+  background-color: #897542;
+  height: 1px;
+  border: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+footer {
+  width: auto;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+/*Custom Classes*/
+.container {
+  width: 95%;
+  margin: auto;
+  background-color: #E6CD9D;
+  border: 1px solid #897542;
+  padding:0px 10px;
+}
+.img-resize {
+  width: 100%;
+  height: auto;
+}
+.text-center {
+  text-align: center;
+  vertical-align: middle;
+}
+.husbandos {
+  display: flex;
+  width: auto;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+}
+.faves img {
+  max-width: 90px;
+}
+.fa-crown {
+  color:#d4af37;
+}
+
+/*Custom IDs*/
+#tsukki {
+  outline-color: #E88E3E;
+  color: #fff;
+  font-weight: 1000;
+  cursor: pointer;
+}
+#menu {
+  width: 100%;
+  background: #000;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  color: #fff;
+
+
+  display: inline-flex;
+  flex-direction: row;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+#menu nav {
+  display: none;
+}
+#menu nav a {
+  color: #fff;
+  padding: 5px;
+  transition: .3s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#menu nav a:hover {
+background: rgba(153, 153, 153, 0.5);
+border-radius: 15%;
+}
+
+
+/*For bigger screens*/
+@media (min-width: 600px) {
+  figure img {
+    max-width: 125px;
+  }
+  figcaption {
+    font-size: 15px;
+  }
+  .container {
+    width: 50%;
+    margin: auto;
+  }
+  #menu nav {
+    display: block;
+  }
+}

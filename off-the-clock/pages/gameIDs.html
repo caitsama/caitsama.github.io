@@ -1,0 +1,80 @@
+<h1><i class="fas fa-gamepad"></i> Game IDs <i class="fas fa-gamepad"></i></h1>
+<p class="text-center"><img src="../images/lucifer.gif" /></p>
+<p>I've been playing a lot of mobile games bc of the panorama LOL feel free to add me on any of them if you play!</p>
+<table>
+    <thead>
+        <tr>
+            <td colspan="3"><i>note: click <i class="far fa-clone"></i> to copy! &hearts;</i></td>
+        </tr>
+        <th>Game</th>
+        <th>ID</th>
+        <th></th>
+        <th>推し&hearts;</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MLQC</td>
+            <td>11159582</td>
+            <td><button data-clipboard-text="11159582"><i class="far fa-clone"></i></button></td>
+            <td>Victor, Shaw</td>
+        </tr>
+        <tr>
+            <td>SINoAlice</td>
+            <td>138180047</td>
+            <td><button data-clipboard-text="138180047"><i class="far fa-clone"></i></button></td>
+            <td>Cinderella, Aladdin</td>
+        </tr>
+        <tr>
+            <td>Genshin Impact</td>
+            <td>602283224</td>
+            <td><button data-clipboard-text="602283224"><i class="far fa-clone"></i></button></td>
+            <td>Kaeya, Zhongli</td>
+        </tr>
+        <tr>
+            <td>Utapri</td>
+            <td>771908637</td>
+            <td><button data-clipboard-text="771908637"><i class="far fa-clone"></i></button></td>
+            <td>Camus, Natsuki, Ren</td>
+        </tr>
+        <tr>
+            <td>Obey Me!</td>
+            <td>2869733537</td>
+            <td><button data-clipboard-text="2869733537"><i class="far fa-clone"></i></button></td>
+            <td>Lucifer, Mammon</td>
+        </tr>
+        <tr>
+            <td>Yume 100</td>
+            <td>181573743</td>
+            <td><button data-clipboard-text="181573743"><i class="far fa-clone"></i></button></td>
+            <td>Apollo, Rica, Haldine</td>
+        </tr>
+        <tr>
+            <td>HypMic ARB</td>
+            <td>8dp4tiqz33u5</td>
+            <td><button data-clipboard-text="8dp4tiqz33u5"><i class="far fa-clone"></i></button></td>
+            <td>Jyuto, Jiro</td>
+        </tr>
+        <tr>
+            <td>Twisted Wonderland</td>
+            <td>NBetQeJw</td>
+            <td><button data-clipboard-text="NBetQeJw"><i class="far fa-clone"></i></button></td>
+            <td>Leona, Azul</td>
+        </tr>
+    </tbody>
+</table>
+<script>
+    var btns = document.querySelectorAll('button');
+    var clipboard = new ClipboardJS(btns);
+
+    clipboard.on('success', function (e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function (e) {
+        console.log(e);
+    });
+
+    $('td button').click(function () {
+        $(this).find('i').toggleClass('fa-clone fa-check-square')
+    });
+</script>
